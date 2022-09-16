@@ -1,0 +1,96 @@
+order
+- order_id (PK)
+- order_date
+- customer_id (FK)
+
+order_details
+- detail_id (PK)
+- order_id (FK)
+- gas_id (FK)
+- qty
+- amount
+
+
+
+customer
+- customer_id (PK)
+- customer_name
+- customer_address
+- lat
+- long
+
+gas
+- gas_id (PK)
+- gas_brand_id
+- gas_size_id
+- price
+- qty
+นลินี อินทมะโน15:42
+order
+- order_id (PK)
+- order_date
+- customer_id (FK)
+- order_status
+นลินี อินทมะโน16:02
+order
+- order_id (PK)
+- order_date
+- customer_id (FK)
+- order_status
+
+or001
+17/7/2565
+cus01
+confirm
+
+
+order_details
+- detail_id (PK)
+- order_id (FK)
+- gas_id (FK)
+- qty
+- amount
+
+det0001
+or001
+g001
+5
+500
+
+det0002
+or001
+g002
+2
+400
+
+det0003
+or001
+
+
+
+customer
+- customer_id (PK)
+- customer_name
+- customer_address
+- lat
+- long
+
+cus01
+nalinee
+444/555
+998888.0
+88789.0
+
+
+gas
+- gas_id (PK)
+- gas_brand_id
+- gas_size_id
+- price
+- qty
+
+g001  g002
+ppt   ppt
+s     M
+100   200
+20    10
